@@ -1,0 +1,120 @@
+/* -------css reset-------- */
+
+*
+{
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+}
+
+body
+/* Ajuste da imagem no fundo */
+{
+	background-image: url(imagens/Team.jpg);
+	background-attachment: fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #000;
+	font-family: sans-serif;
+}
+
+.menu-bar
+{
+	background: rgba(70,130,180);
+	text-align: center;
+}
+
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+
+.menu-bar ul li
+{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+
+/* cor fonte do menu */
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.active, .menu-bar ul li:hover
+{
+	background: #00BFFF;
+	border-radius: 3px;
+}
+.menu-bar imagens
+{
+	margin-right: 8px;
+}
+.dropdown
+{
+	display: none;
+}
+
+/* efeito dropdown */
+.menu-bar ul li:hover .dropdown
+{
+	display: block;
+	position: absolute;
+	background: rgba(70,130,180);
+	margin-top: 15px;
+	margin-left: -15px;
+} 
+.menu-bar ul li:hover .dropdown ul
+{
+	display: block;
+	margin: 10px;
+}
+
+*.menu-bar ul li:hover .dropdown-menu ul li
+{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .dropdown ul li:last-child
+{
+	border-bottom: none;
+}
+
+.menu-bar ul li a:hover
+{
+	color:#B0E0E6;
+}
+.sub-menu-2
+{
+	display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: rgb(70,130,180);
+}
+.sub-menu-3
+
+{
+	display: none;
+}
+.hover-me:hover .sub-menu-3
+{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: rgb(70,130,180);
+}
+
